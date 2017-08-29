@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <PackageProjectUrl>https://github.com/aelij/ImmutableCollections.Serialization</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/aelij/ImmutableCollections.Serialization/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>Serialization helpers for System.Collections.Immutable</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Immutable" Version="1.4.0" />
+  </ItemGroup>
+
+</Project>
